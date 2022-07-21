@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ONS link re-writer",
+  "version": "0.1",
+  "description": "Seamlessly browse links to the old confluence and jira sites!",
+  "author": "Samiwel Thomas",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["ons-link-rewriter.js"]
+    }
+  ]
+}
